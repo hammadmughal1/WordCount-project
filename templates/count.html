@@ -1,0 +1,8 @@
+<h1>Count</h1>
+<h2> {{textarea}}</h2>
+{{worddictionary}}
+{% for word, counttotal in worddictionary.items%}
+{{word}}
+<br/>
+{{counttotal}}
+{% endfor %}
